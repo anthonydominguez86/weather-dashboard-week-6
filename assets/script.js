@@ -69,7 +69,7 @@ $(document).ready(function () {
       var cardBody = $("<div>").addClass("card-body");
       var wind = $("<p>").addClass("card-text").text("Wind Speed: " + data.wind.speed + " MPH");
       var humid = $("<p>").addClass("card-text").text("Humidity: " + data.main.humidity + " %");
-      var temp = $("<p>").addClass("card-text").text("Temperature: " + data.main.temp + " °F");
+      var temp = $("<p>").addClass("card-text").text("Temperature: " + data.main.temp + " K");
       console.log(data)
       var lon = data.coord.lon;
       var lat = data.coord.lat;
@@ -126,7 +126,7 @@ $(document).ready(function () {
 
           var titleFive = $("<h3>").addClass("card-title").text(new Date(data.list[i].dt_txt).toLocaleDateString());
           var imgFive = $("<img>").attr("src", "https://openweathermap.org/img/w/" + data.list[i].weather[0].icon + ".png");
-          var colFive = $("<div>").addClass("col-md-2");
+          var colFive = $("<div>").addClass("col-md-2.5");
           var cardFive = $("<div>").addClass("card bg-primary text-white");
           var cardBodyFive = $("<div>").addClass("card-body p-2");
           var humidFive = $("<p>").addClass("card-text").text("Humidity: " + data.list[i].main.humidity + "%");
