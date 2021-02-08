@@ -38,6 +38,8 @@ I can take so much from this assignment because it was so challenging it made me
 
 # Screenshots:
 
+![weather dash](https://user-images.githubusercontent.com/73844796/107263099-58b14b80-6a0f-11eb-9123-d5fb8c9d5f5b.png)
+
 <img width="1440" alt="weather dash 4" src="https://user-images.githubusercontent.com/73844796/106359080-39634180-62de-11eb-9b24-5f9da37cc9d5.png">
 
 More screen shots available in weather-dashboard-week-6/screenshots
